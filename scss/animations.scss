@@ -1,0 +1,42 @@
+// Btn animation
+@keyframes btnAnimation {
+  from {
+    width: 45px;
+  }
+  90% {
+    width: 110%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes btnAnimationBack {
+  from {
+    width: 100%;
+  }
+  90% {
+    width: 35px;
+  }
+  to {
+    width: 45px;
+  }
+
+}
+
+@keyframes giphyDown {
+  from {
+    // transform: scale(1);
+    width: 100vw;
+    height: 100vh;
+  }
+  95% {
+    position: absolute;
+  }
+  to {
+    // transform: scale(0.5);
+    width: 300px;
+    height: 200px;
+    position: absolute;
+  }
+}
